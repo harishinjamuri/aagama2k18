@@ -1,0 +1,61 @@
+
+ .box{
+  border-left:2px solid black;
+  width:auto;
+height:auto ;   
+  padding-top:1px;
+  text-align:center;
+  color:#fff;	
+  }
+   
+ 
+   
+  .box:hover{
+  background-color:black;
+  color:yellow;	
+}
+
+	p
+{   font-size:6vw;
+    font-family:"Comic Sans MS" !important;
+    color:white;
+}
+p:hover{
+    font-family:"Comic Sans MS" !important;
+    color:yellow;
+}
+
+	
+.center{
+    
+    position:relative;
+    
+    top:20vh;
+    left:8%;
+    width:80%;
+    height:35%;
+}
+.container-fluid{
+	width:device-width;
+	color:white;
+	background:black;
+	height:auto;
+    width: auto;
+    
+    font-size:14px;
+}
+
+
+ footimages{
+    position:relative;
+    width: 100%;
+    height: 5%; 
+top:100%;
+	padding-bottom:0px;
+    margin-top: 3vh;
+	margin-bottom:0vh;
+	
+	
+}
+ 
+ 

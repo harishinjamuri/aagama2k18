@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html >
+<head><title>events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+   
+    <title>Aagama 2K18 | About</title>	
+	
+ 
+  
+
+ <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/stylenav.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<style>
+    .imgbg img{
+        image-orientation: fixed;
+        image-resolution: snap;
+        scroll-behavior: smooth;
+        width:100%;
+    }
+    #myBtnContainer{
+        position: absolute;
+        top:35%;
+        left:5%;
+        color: black;
+        
+    }
+    .dropbtn{
+        background-color: white;
+        color:black;
+    }
+    .box{
+  
+  width:10vw;
+  height:10vh;
+  padding-top:0px;
+  text-align:center;
+  }
+  
+   
+  .box:hover{
+  background-color:#000;
+  color:white;	
+}
+	
+
+ 
+ 
+  @media screen 
+  and (min-width: 440px) 
+ { 	
+    iframe{
+	 width:60vw;
+	 height:80vh;
+	 } 
+ 
+ .reach{
+   padding-left:5vw;
+   padding-top:3vh;
+ }
+ }
+ 
+* {
+    box-sizing: border-box;
+}
+
+body {
+  
+    width:100%;
+    
+        
+   
+    background-color:orange;
+    background-position:center;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+/* Center website */
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+}
+
+.row {
+    margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    display: none;
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);/* Hide all elements by default */
+}
+
+/*problem*/
+   /*  @media (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}*/
+img{height:300px;width:300px;}
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+    }
+    
+    .content img{
+        height:200px;
+    }
+     @media (max-width: 650px) {
+  .content {
+    width: 100%;
+    display: table-row;
+  }
+  .column {
+    float:right;
+    width: 100%;
+    display: none; /* Hide all elements by default */
+}
+
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+    position: sticky;
+}
+    .content h4{
+        
+    padding-left: 4%;
+        padding-top: 2%;
+        font-size: large;
+    }
+    
+    .content p{
+        padding-top: 5%;
+    padding-left: 3%;
+        padding-bottom: 4%;
+        font-size: small;
+    }
+.btn:hover, .active {
+  background-color: #666;
+  color: white;
+}
+    .dropbtn {
+    background-color: white;
+    color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+       
+}
+
+/* The container div - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left:auto;
+    
+   
+}
+     @media (max-width: 650px) {
+  .dropdown {
+    position: relative;
+     display: inline-block;
+    left:auto;
+  }
+         .imgbg img{
+             width:100%;
+             height:80px;
+         }
+      .viewbutton {
+
+  border: none;
+  outline: 0;
+  display: inline-block;
+  left:20%;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  width:100%;
+  cursor: pointer;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:medium;
+
+}
+#myBtnContainer{
+        position: absolute;
+        top:7%;
+    }
+img{height:300px;width:300px;}
+
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 127px;
+    box-shadow: 0px 8px 16px 0px ;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    background-color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: yellow;color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: grey;
+    
+    color:yellow;
+}
+ img{height:300px;width:300px;}
+     
+  .content img:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+    .viewbutton {
+
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+        font-family: sans-serif;
+  cursor: pointer;
+        font-size: medium;
+}
+
+.viewbutton:hover {
+  background-color: #555;
+  color: white;
+}
+    
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+    
+    
+    
+        
+        
+    
+    @media screen and (max-width:990px){
+        
+        body{
+            width:100%;
+        }
+        .content{
+            width:100%;
+        }
+        .imgbg img{
+             width:100%;
+             height:120px;
+         }
+         #main{
+            height:0; 
+            width:0;
+        }
+    }
+    @media screen and (max-width:640px){
+        
+        body{
+            width:100%;
+        }
+          .content{
+            width:100%;
+        }
+         #main{
+         width:0;
+         height:0;
+        }
+    }
+    .eveimg{
+        width:185px;
+        height:75px;
+    }
+    
+   
+</style>
+</head>
+<body>
+  <div id="cd-nav">
+		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
+      <ul style="position: absolute; left:0%;top:0%;"><li><img class="eveimg" src="images/aagama.png"></li></ul>
+		<div id="main" style=" background-color: black;font-family: arial;"><br><br><br><br><br><nav id="cd-main-nav">
+           
+			<ul >
+
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="eventpage.html">EVENTS</a></li>
+				<li><a href="team.html">TEAM</a></li>
+				<li><a href="sponsors.html">SPONSORS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+      </div>
+	</div>
+
+
+    <div class="imgbg"> <img src="images/EVEBGN.jpg"></div>
+
+<div id="myBtnContainer">
+ 
+ <div class="dropdown">
+  <button class="dropbtn" >Department Wise</button>
+  <div class="dropdown-content">
+    <a href="#" onclick="filterSelection('cse')" >CSE</a>
+    <a href="#" onclick="filterSelection('it')">IT</a>
+    <a href="#" onclick="filterSelection('eee')">EEE</a>
+    <a href="#" onclick="filterSelection('ece')">ECE</a>
+   <a href="#" onclick="filterSelection('mec')">MEC</a>
+    <a href="#" onclick="filterSelection('chem')">CHEMICAL</a>
+       <a href="#" onclick="filterSelection('civil')">CIVIL</a>
+    <a href="#" onclick="filterSelection('pharm')">PHARM</a>
+       <!--<a href="#" onclick="filterSelection('mba')">MBA</a>-->
+      </div>
+     </div>
+       
+  <button class="btn" onclick="filterSelection('TECHZONE')"> Technical</button>
+  <button class="btn" onclick="filterSelection('NONTECH')"> Others</button>
+       <button class="btn active" onclick="filterSelection('all')">Show All</button>    
+    </div>
+<div class="page" style="width:80%;position: absolute; left:10%">
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+    <div class="column it NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/it-posterpresentation.jpg" style="width:100%">
+         
+      <h4> Poster presentation (non-technic)  </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/IT-Poster Presentation (Non-Technical).html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+  <div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-mobileappmockup.png" style="width:100%">
+         
+      <h4> Mobile App Mockup </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-mobileappmockup.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+
+  <div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-paperpresentation.jpg" style="width:100%">
+         
+      <h4> Paper presentation </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-paperpresentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+  <div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-deadlyhunt.jpg" style="width:100%">
+         
+      <h4> Deadly hunt </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-deadlyhunt.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+  <div class="column it NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/it-wordsworth.jpg" style="width:100%">
+         
+      <h4> WordsWorth </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-wordsworth.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+<div class="column it NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/it-virtualjobfair.png" style="width:100%">
+         
+      <h4> Virtual job fair </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-virtualjobfair.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+<div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-cpucollab.jpg" style="width:100%">
+         
+      <h4> CPU collab </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-cpucollab.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+
+<div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-codesink.jpg" style="width:100%">
+         
+      <h4> Code Sink </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-codesink.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+<div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-cascadingcoding.jpeg" style="width:100%">
+         
+      <h4> Cascading Code </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-cascadingcoding.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+  <div class="column it TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/it-codemaze.jpg" style="width:100%">
+         
+      <h4> Code Maze </h4>
+      <p>To be organised by IT Department</p>
+        <a href="eventpages/it-codemaze.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+     <div class="column mec NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/mec-playzone.jpg"  style="width:100%">
+         
+      <h4>PLAY ZONE</h4>
+      <p>To be organised by Mechanical Department</p>
+        <a href="eventpages/mec-playzone.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-mekbolt.jpg"  style="width:100%">
+         
+      <h4>MEKBOLT</h4>
+      <p> To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-mecbolt.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-mindspark.jpg"  style="width:100%">
+         
+      <h4>MIND SPARK</h4>
+      <p> To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-mindspark.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-prayog.jpg"  style="width:100%">
+         
+      <h4>PRAYOG</h4>
+      <p>To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-prayog.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-paperpresentation.jpg"  style="width:100%">
+         
+      <h4>PAPER PRESENTATION</h4>
+      <p> To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-paper%20presentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/mec-funcarnival.jpg"  style="width:100%">
+         
+      <h4>FUN CARNIVAL</h4>
+      <p>To be organised by Mechanical Department</p>
+        <a href="eventpages/mec-funcarnival.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-meet%20your%20thoghts.jpg"  style="width:100%">
+         
+      <h4>MEET YOUR THOUGHTS</h4>
+      <p>To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-%20meetyourthoughts.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column mec TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/mec-designxexcute.jpg"  style="width:100%">
+         
+      <h4>DESSIN XEXCUTE</h4>
+      <p>To be organised by Mechanical Department<br></p>
+        <a href="eventpages/mec-dessinxecutw.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+    </div>
+  
+  
+
+     <div class="column civil TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/civil-project presentation.jpg"  style="width:100%">
+         
+      <h4>Project Presentation</h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/civil-project presentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+       <div class="column civil TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/Civil-3D Challenge.jpg"  style="width:100%">
+         
+      <h4>3D Challenge</h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-3D Challenge.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+         <div class="column civil TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/Civil-Innovative Idea Presentation.jpg"  style="width:100%">
+         
+      <h4>Innovative Idea Presentation</h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-Innovative Idea Presentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+         <div class="column civil TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/Civil-poster presentation.jpg"  style="width:100%">
+         
+      <h4>Poster Presentation</h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-poster presentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+         <div class="column civil TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/Civil-model making.jpg"  style="width:100%">
+         
+      <h4>Model Making</h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-model making.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+        <div class="column civil NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/Civil-Brick Challenge.jpg"  style="width:100%">
+         
+      <h4>Brick Challenge </h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-Brick Challenge.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+  <div class="column civil NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/civil-creative selfie.jpg"  style="width:100%">
+         
+      <h4> Creative Selfie </h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/civil-creative selfie.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+    <div class="column civil NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/Civil-King of Dice.jpg"  style="width:100%">
+         
+      <h4> King of Dice  </h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/Civil-King of Dice.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+  
+    <div class="column civil NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/civil-mock cid.jpg"  style="width:100%">
+         
+      <h4> MOCKCID(MysteryRoom) </h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/civil-mock cid.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  
+      <div class="column civil NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/civil-mirror walk.jpg"  style="width:100%">
+         
+      <h4> Mirror walk  </h4>
+      <p>To be organised by Civil Department<br></p>
+        <a href="eventpages/civil-mirror walk.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+
+     <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-ideapresentation.jpg"  style="width:100%">
+         
+      <h4>IDEA PRESENTATION</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-ideapresentationpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+ <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-paperpresentation.jpg"  style="width:100%">
+         
+      <h4>PAPER PRESENTATION</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-paperpresentationpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-projectexpo.png"  style="width:100%">
+         
+      <h4>PROJECT EXPO</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-projectexpopage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+ <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-posterpresentaion.jpg"  style="width:100%">
+         
+      <h4>POSTER PRESENTATION</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-posterpresentationpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div> 
+ <div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-langaming.jpg"  style="width:100%">
+         
+      <h4>LAN GAMING</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-langamingpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-codecup.jpg"  style="width:100%">
+         
+      <h4>CODE CUP</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-codecuppage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+ <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-webclubhackathon.png"  style="width:100%">
+         
+      <h4>WEB CLUB HACK_A_THON</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-webclubhackathonpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-dandiya.jpg"  style="width:100%">
+         
+      <h4>DANDIYA</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-dandiya.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-rangoli.jpg"  style="width:100%">
+         
+      <h4>RANGOLI</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-rangolipage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column cse TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/cse-nullclubhackathon.jpg"  style="width:100%">
+         
+      <h4>NULL CLUB HACK_A_THON</h4>
+      <p>To be organised by cse deptartment<br></p>
+        <a href="eventpages/cse-nullclubhackathonpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-painting.jpg"  style="width:100%">
+         
+      <h4>PAINTING</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-paintingpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+<div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-bestoutofwaste.jpg"  style="width:100%">
+         
+      <h4>BEST OUT OF WASTE</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-bestoutofwastepage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column cse NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/cse-claymoulding.jpg"  style="width:100%">
+         
+      <h4>CLAY MOULDING</h4>
+      <p>To be organised by cse deptartment</p>
+        <a href="eventpages/cse-claymouldingpage.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+     <div class="column eee TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/eee-paperpresentation.jpg"  style="width:100%">
+         
+      <h4>PAPER PRESENTATION</h4>
+      <p>To be organised by EEE Department<br></p>
+        <a href="eventpages/eee-paperpresentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/eee-posterpresentations.jpg"  style="width:100%">
+         
+      <h4>POSTER PRESENTATION</h4>
+      <p>To be organised by EEE Department<br></p>
+        <a href="eventpages/eee-posterpresenttion.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/eee-projectexpo.jpg"  style="width:100%">
+         
+      <h4>PROJECTS EXPO</h4>
+      <p>To be organised by EEE Department<br></p>
+        <a href="eventpages/eee-projectexpo.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/eee-circut.jpg"  style="width:100%">
+         
+      <h4>CIRCUTX</h4>
+      <p>To be organised by EEE Department<br></p>
+        <a href="eventpages/eee-circutx.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/eee-technicalquiz.jpg"  style="width:100%">
+         
+      <h4>TECHNICAL QUIZ</h4>
+      <p>To be organised by EEE Department<br></p>
+        <a href="eventpages/eee-technicalquiz.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/eee-inversion.jpg"  style="width:100%">
+         
+      <h4>INVERSION</h4>
+      <p>To be organised by EEE Department</p>
+        <a href="eventpages/eee-inversion.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/eee-techhunt.jpg"  style="width:100%">
+         
+      <h4>TECH POWER HUNT</h4>
+      <p>To be organised by EEE Department</p>
+        <a href="eventpages/eee-techhunt.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/eee-wordsworth.jpg"  style="width:100%">
+         
+      <h4>WORDS WORTH</h4>
+      <p>To be organised by EEE Department</p>
+        <a href="eventpages/eee-wordsworth.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/eee-puzzlebreak.jpg"  style="width:100%">
+         
+      <h4>PUZZLE BREAK</h4>
+      <p>To be organised by EEE Department</p>
+        <a href="eventpages/eee-puzzlebreak.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+         <div class="column eee NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/eee-fabulus15.jpg"  style="width:100%">
+         
+      <h4>FABULUS 15</h4>
+      <p>To be organised by EEE Department</p>
+        <a href="eventpages/eee-fabulus%2015.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+        
+
+    <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-paperpresentation.jpg"  style="width:100%">
+         
+      <h4>PAPER PRESENTATION</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-paperpresentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-posterpresentation.jpg" style="width:100%">
+         
+      <h4>POSTER PRESENTATION</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-posterpresentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-projectpresentation.jpg" style="width:100%">
+         
+      <h4>PROJECT PRESENTATION</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-projectpresentation.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-robotics.png"  style="width:100%">
+         
+      <h4>ROBOTICS</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-robotics.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-circuitrix.jpg"  style="width:100%">
+         
+      <h4>CIRCUITRIX</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-circuitrix.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-codebreakers.jpg"  style="width:100%">
+         
+      <h4>CODE BREAKERS</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-codebreakers.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/ece-devilfollows.jpg"  style="width:100%">
+         
+      <h4>DEVIL FOLLOWS</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-devilfollows.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-dumbshellelectronics.jpg"  style="width:100%">
+         
+      <h4>DUMBSHELL ELECTRONICS</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-dumbshellelectronics.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/ece-jigsawpuzzle.jpg"  style="width:100%">
+         
+      <h4>JIG SAW PUZZLE</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-jigsawpuzzle.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/ece-luckydraw.jpg"  style="width:100%">
+         
+      <h4>LUCKY DRAW</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-luckydraw.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-matlabmania.jpg"  style="width:100%">
+         
+      <h4>MATLAB MANIA</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-matlabmania.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-ramandrom.jpg"  style="width:100%">
+         
+      <h4>RAM AND ROM</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-ramandrom.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+   <div class="column ece NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/ece-saveme.jpg"  style="width:100%">
+         
+      <h4>SAVE ME!</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-saveme.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+  <div class="column ece NONTECH">
+    <div class="content">
+       
+       <img src="eventpages/ece-technicaltambola.png"  style="width:100%">
+         
+      <h4>TECHNICAL TAMBOLA</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-technicaltambola.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+<div class="column ece TECHZONE">
+    <div class="content">
+       
+       <img src="eventpages/ece-techquiz.jpg"  style="width:100%">
+         
+      <h4>TECH QUIZ</h4>
+      <p>To be organised by ECE Department</p>
+        <a href="eventpages/ece-techquiz.html"target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+ <div class="column pharm TECHZONE">
+    <div class="content">
+	 <img src="eventpages/pharm-oral-presentation.jpg"  style="width:100%">
+         
+      <h4>ORAL PRESENTATION</h4>
+      <p>To be organised by PHARM Department</p>
+        <a href="eventpages/pharm-oral-presentation.html" target="_blank" ><button class="viewbutton">More ➤</button></a>
+    </div>
+  </div>
+ 
+
+    
+    </div>
+        
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+    
+function myFunction() {
+    var x = document.getElementById("snackbar")
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+    
+   /* if (screen.width>=1500){document.write("<style>body{zoom:115%}.hand_ipad img {top:114px}</style>")}
+if (screen.width>=2000){document.write("<style>body{zoom:135%}.hand_ipad img {top:114px}.hand_ipad iframe{height: 275px;}</style>")}
+if (screen.width>=2500){document.write("<style>body{zoom:150%}.hand_ipad img {top:114px}.hand_ipad iframe{height: 275px;}</style>")}
+*/
+</script>
+   
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+    
+
+</body>
+</html>
