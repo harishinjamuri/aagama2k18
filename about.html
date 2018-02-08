@@ -1,123 +1,171 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
-
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>About</title>
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+<head> 
+<meta charset="utf-8" >
+	<meta name="description" content="Annual national level techinal fest of the Anurag Group Of Institutions, Hyderabad!">
+    <meta name="keywords" content=" aagama team,mobile responsive,cvsr fest,anurag group of institutions,hyderabad fest, aagama,aagama 2k18 fest,fest,aagama 2k18">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/anuraglogo.jpg">
+    <title>Aagama 2K18 | Home</title>	
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+	
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+ 
+  <link href="css/stylenav.css" rel="stylesheet" type="text/css"> 
+     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/stylenav.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->	
- 
-<style>
-    body{
-        margin:0;
-        width: 100%;
-        height: 100%;
-        background-attachment:fixed;
-	background-size:cover;
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+	  <script type="text/javascript">
+    $(window).on('load resize',function(){
+        if($(window).width() > 450){
+            window.location = "mobile.html"
+        }
+    });
+
+</script>
+  <script>
+// Set the date we're counting down to
+var countDownDate = new Date("mar 16, 2018 0:1:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+    // Get todays date and time
+    var now = new Date().getTime();
+    
+    // Find the distance between now an the count down date
+    var distance = countDownDate - now;
+    
+    // Time calculations for days, hours, minutes and seconds
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+   /* var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);*/
+
+    // Output the result in an element with id="demo"
+    document.getElementById("demo").innerHTML = days +" days " + /*hours + "h "
+    + minutes + "m " + seconds + "s " + */ "to go";
+    
+    // If the count down is over, write some text 
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
     }
-.abt {
-  position:absolute;
-  text-align:left;
-  left:8%;
-  right:8%;
-  background-color:rgba(0,0,0,0.6);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:auto;
-  height:82vh;
-  padding-top:5px;
-  top: 18%; 
-  bottom:2%;
-  color:white;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-.abt h2{
-	font-family:'Comic Sans MS';text-align:center;color:white;font-size:50px;
-}
+}, 1000);
+</script>
+ <style>
+ body{color:white;overflow:hidden;background-color:#000;}
 
- @media screen and (max-width:1100px)
- {
-body{
-      width: 100%;
-        height: 100%;	
- }	 
-  	 
-.abt {
-  position:absolute;
-  text-align:left;
-  left:5%;
-  right:5%;
-  background-color:rgba(0,0,0,0.6);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:90%;
-  height:auto;
-  color:white;
-  top:15%;
-  
-}
-     @media screen and (max-width:1900px)
- {
-body{
-      width: 100%;
-        height: 100%;	
- }	 
-
-	 
-.abt {
-  position:absolute;
-  text-align:left;
-  left:5%;
-  right:5%;
-  background-color:rgba(0,0,0,0.6);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:90%;
-  height:auto;
-  color:white;
-  top:15%;
-  
-}
-     #main{
-         width:0;
-         height:0;
-     }
-     }
-      @media screen and (max-width:480px)
- {
-	 body{
-	  width: 100%;
-          height:100%;
-	 }	 
+#particles-js{display: block;position: fixed;width: 100%;height: 100%;}
+ 
+     .toplogo{
+         position: absolute;
+         top:20%;
+         left:10%;
+         display: block;
+         width:80%;
+         height:80%;
+     }   
+ 
+  footer{
+    font-size:2vh;	
+	bottom:0;
+    background-color: #000;
+    width:100%;
+    position:absolute;
+	height:9vh;
+	text-align:center;
+	}
 	
- .abt {
-  position:absolute;
-  text-align:left;
-  left:5%;
-  right:5%;
-  background-color:rgba(0,0,0,0.6);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  width:90%;
-  height:auto;
-  color:white;
-  top:15%;
-  
-}
-     #main{
-        width:0;
-         height:0;
-     }
-}
-</style>
-</head>
-
-<body style="background-image: url(images/Anurag.jpg);bachbround-repeat:no-repeat;background-attachment: fixed;backgroung-size:cover;">
+   #pos{
+    display:inline-block;
+   }	
+   
+   #pos img{
+      margin-left:10vw;
+   }
+   
+  .container-fluid img{
+    margin-left:3vw;
+	margin-top:1vh;
+      padding: inherit;
+   width:25vw;
+   height:6vh;
+   position:relative;
+   }
+ 
+ 	.footimages{
+	   bottom:2vh;
+	   margin-top:10vh;
+	   position:absolute;
+	   padding-top:70%;
+	   padding-bottom:10vh;
+       margin-left: 8%;   
+       width:100%;	   
+	}
      
+  span h2{
+    font-size:5vw;
+    margin:0;  
+    padding-bottom: 100vh;
+   
+  }      
+     
+.typewriter h4{
+    padding-left:12vw;
+	padding-top:5vh;
+	font-size:3.8vw;
+  }     
 
+.allover{-webkit-animation-name:makeIn;
+-webkit-animation-duration:.4s;
+-webkit-animation-iteration-count:1;
+-webkit-animation-direction:alternate;
+-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:ease-out;
+-moz-animation-name:makeIn;
+-moz-animation-duration:.4s;
+-moz-animation-iteration-count:1;
+-moz-animation-direction:alternate;
+-moz-animation-fill-mode:forwards;
+-moz-animation-timing-function:ease-out;
+animation-name:makeIn;
+animation-duration:.4s;
+animation-iteration-count:1;
+animation-direction:alternate;
+animation-fill-mode:forwards;
+animation-timing-function:ease-out;z-index:-1}
+
+
+.alloverAgain{-webkit-animation-name:makeOut;
+-webkit-animation-duration:.4s;
+-webkit-animation-iteration-count:1;
+-webkit-animation-direction:alternate;-webkit-animation-fill-mode:forwards;
+-webkit-animation-timing-function:ease-out;-moz-animation-name:makeOut;-moz-animation-duration:.4s;
+-moz-animation-iteration-count:1;-moz-animation-direction:alternate;-moz-animation-fill-mode:forwards;
+-moz-animation-timing-function:ease-out;animation-name:makeOut;animation-duration:.4s;animation-iteration-count:1;
+animation-direction:alternate;animation-fill-mode:forwards;animation-timing-function:ease-out;z-index:1}
+
+
+ 
+</style>
+ 
+ </head>
+  
+ <body>
+ 
+
+
+     <div id="particles-js"><canvas class="particles-js-canvas-el" width="1366" height="auto"></canvas></div>
 <div id="cd-nav">
 		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
- <ul style="position: absolute; left:0%;top:0%;"><img src="images/aagama.png" style="widht:70px;height:70px;"></ul>
-		<div id="main" style=" background-color: black;font-family: arial;"><br><br><br><br><br><nav id="cd-main-nav">
+ 
+		<nav id="cd-main-nav" >
            
 			<ul>
 
@@ -129,28 +177,64 @@ body{
                 <li><a href="contact.html">CONTACT</a></li>
 			</ul>
 		</nav>
-    </div>    
 	</div>
        
-  
-  <div class="abt container">
- <h2><b>
-         <p style=" letter-spacing:1.5px;font-size:9vh;font-family:'arial';opacity:1">   AB<span style="color:#fc1501">O</span>UT</p>
-          </b></h2>
-    <p style=" letter-spacing:1.5px;font-size:4vh;font-family:'arial';opacity:1"><b>
-    <br><br>
+
  
-  To be abreast of recent developments and to provide a common platform to the budding technocrats from all over the country, to have knowledge share and to explore new horizons in the concerned Engineering, Pharmacy and Management streams, Anurag Group of Institutions is organizing AAGAMA 2K18 on 16th and 17th March, 2018.<br>
-<br>
+ <br>
+ <marquee  scrolldelay="100s" height="70%" >
+ <p >
+  NEWS&nbsp;:&nbsp;-&nbsp;&nbsp;1)Android app coming soon...&nbsp;&nbsp;&nbsp;&nbsp;
+ 2) Communication skills workshop&nbsp;&nbsp;
+ </p></marquee>
 
-             In the present scenario professional education is demanding overall development from the students. Student is expected to acquire thorough technical knowledge along with other supportive skills. As a part of this technical papers are invited from all the corners of the country. <br>
-<br>
-Many events like Tech Quiz, Poster presentation, Project presentation, Circruitrix, Velocity, Invasion, Model Making, Lan gaming and many more are included to extract the  inherent talent of young minds. This two day technical fest is right platform for students to improve communication skills, exchange their views, ideas and update their technical knowledge in present engineering scenario. <br>
+     
+     
+<div class="typewriter">
+    <h4 style="padding-left: 18%;"> WELCOME TO AAGAMA 2K18</h4><br/>
+    <h4>A NATIONAL LEVEL TECHNICAL FEST</h4>
+</div>    
+     
+<div class="toplogo">     
+    <img src="images/aagama4.png" >
+     </div>
 
-</b></p>
+ <div style="position: absolute;top: 50%;left: 30%;"> <p style="font-family: cursive sans-serif serif monospace;font-size: 5vw;">16<sup>th</sup> - 17<sup>th</sup> March 2018</p>
+     </div>  
+<blink><span class="years" id="demo" style="text-align: center;
+  font-size: 8vw;
+    font-family: Comic Sans MS; 
+  margin-top:0px;
+  color:red;
+  border: 2px solid yellow;
+  position: absolute;
+  left:28%;
+    width: 100%
+    height:35px;
+  bottom:33%;">
+    <p id="demo"></p></span></blink>
+
+     <div style="position: absolute; top: 92%;
+                 left:3%; width:300px;height:90px;color:#ffba00;"><h5 style="font-family: Brush Script MT;font-size: 8vw;font-style: bold;">
+        Register&nbsp;&nbsp;Participate&nbsp;&nbsp;Win&nbsp;!!!  
+         </h5></div>
+          
+          
+<!--images-->
+<div class="footimages">
+<img  src="images/15years.png" height="16%" width="16%" >
+<img src="images/JNTU.png" height="12%" width="12%">
+<img  src="images/nba.png" height="12%" width="12%"> 
+<img src="images/aicte.png " height="12%" width="12%">
+<img  src="images/UGC.png" height="12%" width="12%">	
+<img  src="images/naac-logo.png" height="12%" width="12%"> 
 </div>
-    <script src="js/jquery-2.1.1.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
-</body>
 
+
+<script src="particles.min.js"></script>
+<script type="text/javascript" src="backMotion.js"></script>
+     <script src="js/jquery-2.1.1.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+
+</body>
 </html>
