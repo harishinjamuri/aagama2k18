@@ -10,332 +10,83 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
-  .imgbg img{
-        image-orientation: fixed;
-        image-resolution: snap;
-        scroll-behavior: smooth;
-        width:100%;
-    }
-    #myBtnContainer{
-        position: absolute;
-        top:35%;
-        left:5%;
-        color: black;
-        
-    }
-    .dropbtn{
-        background-color: white;
-        color:black;
-    }
-    .box{
-  
-  width:10vw;
-  height:10vh;
-  padding-top:0px;
-  text-align:center;
-  }
-  
-   
-  .box:hover{
-  background-color:#000;
-  color:white;	
-}
-	
-
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      background-color:  #474e5d;
+      width:100%;
+      height:100%;
  
- 
-  @media screen 
-  and (min-width: 440px) 
- { 	
-    iframe{
-	 width:60vw;
-	 height:80vh;
-	 } 
- 
- .reach{
-   padding-left:5vw;
-   padding-top:3vh;
- }
- }
- 
-* {
-    box-sizing: border-box;
-}
-
-body {
-  
-    width:100%;
-    
-        
-   
-    background-color:orange;
-    background-position:center;
-    background-attachment:fixed;
-    background-size:cover;
-}
-
-/* Center website */
-
-h1 {
-    font-size: 50px;
-    word-break: break-all;
-}
-
-.row {
-    margin: 10px -16px;
-}
-
-/* Add padding BETWEEN each column */
-.row,
-.row > .column {
-    padding: 8px;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    display: none;
-    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);/* Hide all elements by default */
-}
-
-/*problem*/
-   /*  @media (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
   }
-}*/
-img{height:300px;width:300px;}
-/* Clear floats after rows */ 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
-/* Content */
-.content {
-    background-color: white;
-    padding: 10px;
-    }
-    
-    .content img{
-        height:200px;
-    }
-     @media (max-width: 650px) {
-  .content {
-    width: 100%;
-    display: table-row;
-  }
-  .column {
-    float:right;
-    width: 100%;
-    display: none; /* Hide all elements by default */
-}
-
-}
-
-
-/* The "show" class is added to the filtered elements */
-.show {
-  display: block;
-}
-
-/* Style the buttons */
-.btn {
-  border: none;
-  outline: none;
-  padding: 12px 16px;
-  background-color: white;
-  cursor: pointer;
-    position: sticky;
-}
-    .content h4{
-        
-    padding-left: 4%;
-        padding-top: 2%;
-        font-size: large;
-    }
-    
-    .content p{
-        padding-top: 5%;
-    padding-left: 3%;
-        padding-bottom: 4%;
-        font-size: small;
-    }
-.btn:hover, .active {
-  background-color: #666;
-  color: white;
-}
-    .dropbtn {
-    background-color: white;
-    color: black;
-    padding: 10px 16px;
-    font-size: 14px;
-    cursor: pointer;
-       
-}
-
-/* The container div - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
-    left:auto;
-    
-   
-}
-     @media (max-width: 650px) {
-  .dropdown {
-    position: relative;
-     display: inline-block;
-    left:auto;
-  }
-         .imgbg img{
-             width:100%;
-             height:80px;
-         }
-      .viewbutton {
-
-  border: none;
-  outline: 0;
-  display: inline-block;
-  left:20%;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  width:100%;
-  cursor: pointer;
-  font-family:Arial, Helvetica, sans-serif;
-  font-size:medium;
-
-}
-#myBtnContainer{
-        position: absolute;
-        top:7%;
-    }
-img{height:300px;width:300px;}
-
-}
-
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    color: black;
-    width: 127px;
-    box-shadow: 0px 8px 16px 0px ;
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: white;
-    background-color: grey;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    font-size: 18px;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: yellow;color: black;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: grey;
-    
-    color:yellow;
-}
- img{height:300px;width:300px;}
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+      position:absolute;
+      left:0%;
+      top:0%;
+      width:30%;
+      height:100%;
      
-  .content img:hover {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-    .viewbutton {
-
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-        font-family: sans-serif;
-  cursor: pointer;
-        font-size: medium;
-}
-
-.viewbutton:hover {
-  background-color: #555;
-  color: white;
-}
-    
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-    
-    
-    
-        
-        
-    
-    @media screen and (max-width:760px){
-        
-        body{
-            width:100%;
-        }
-        .content{
-            width:100%;
-        }
-        .imgbg img{
-             width:100%;
-             height:120px;
-         }
-         #main{
-            height:0; 
-            width:0;
-        }
-    }
-    @media screen and (max-width:640px){
-        
-        body{
-            width:100%;
-        }
-          .content{
-            width:100%;
-        }
-         #main{
-         width:0;
-         height:0;
-        }
-    }
-    .eveimg{
-        width:185px;
-        height:75px;
-    }
-    
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+       position:absolute;
+      left:30%;
+      top:0%;
+      width:70%;
+      height:100%;
+  }
+      .id{
+          margin-bottom: 10%;    
+      }
+      /*mobile view*/
+      @media screen and (max-width:640px){
+           body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+      background-color:  #474e5d;
+      width:100%;
+               height:100%;}
+          
+           .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+      position:absolute;
+      left:0%;
+      top:0%;
+      width:100%;
+      height:auto;
+    padding: 1px 3px;  
+               
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+       position:absolute;
+      left:0%;
+      top:85%;
+      width:100%;
+      height:150%;
+     
+  }
+ 
+  .container-fluid {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      height:100%;
+  }
+          
+          .text-center{
+              margin-bottom: 2%;
+          }       
+          
+          
+      }  
     
   </style>
 </head>
