@@ -74,7 +74,7 @@ header h1 {
     margin-bottom: 4em;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 600px) {
   header {
     height: 400px;
     padding-top: 11em;
@@ -172,7 +172,15 @@ header h1 {
 #cd-nav li:last-child a {
   border-bottom: none;
 }
-@media only screen and (min-width: 1170px) {
+@media screen and (min-width: 768px) and (max-width:800px){
+
+ #cd-nav li a {
+      font-size: 10px;
+  }
+
+	
+}
+@media only screen and (min-width: 768px) {
   #cd-nav ul {
     /* the navigation moves to the top */
     position: absolute;
@@ -198,9 +206,10 @@ header h1 {
   #cd-nav li a {
     opacity: 1;
     padding: .4em;
+    padding-left:2%;
     margin-left: 1.6em;
     border-bottom: none;
-      font-size: 20px;
+      font-size: 2vw;
   }
   #cd-nav li a:hover {
     color: #00bd9b;
@@ -401,7 +410,7 @@ header h1 {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 768px) {
   #cd-gallery-items li {
     width: 31%;
     float: left;
