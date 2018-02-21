@@ -19,6 +19,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: #2c3e51;
   background-color: white;
+  margin:0;
 }
 
 a {
@@ -74,7 +75,7 @@ header h1 {
     margin-bottom: 4em;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 600px) {
   header {
     height: 400px;
     padding-top: 11em;
@@ -169,10 +170,15 @@ header h1 {
   padding: 1.6em;
   border-bottom: 1px solid #eff2f6;
 }
-#cd-nav li:last-child a {
-  border-bottom: none;
+@media screen and (min-width: 768px) and (max-width:800px){
+
+ #cd-nav li a {
+      font-size: 10px;
+  }
+
+	
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 768px) {
   #cd-nav ul {
     /* the navigation moves to the top */
     position: absolute;
@@ -401,7 +407,7 @@ header h1 {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 1170px) {
+@media only screen and (min-width: 768px) {
   #cd-gallery-items li {
     width: 31%;
     float: left;
