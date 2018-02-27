@@ -42,7 +42,7 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days +" days " + hours + "h "
+    document.getElementById("demo").innerHTML = days +" d " + hours + "h "
     + minutes + "m " + seconds + "s " +  "to go";
     
     // If the count down is over, write some text 
@@ -213,7 +213,7 @@ animation-direction:alternate;animation-fill-mode:forwards;animation-timing-func
   color:red;
   border: 2px solid yellow;
   position: absolute;
-  left:28%;
+  left:20%;
     width: 100%
     height:35px;
   bottom:33%;">
