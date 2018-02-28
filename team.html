@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -68,12 +69,17 @@
         padding-left: 0;
         padding-right:0; 
     }    
-     #main{
+     .main{
          width:0;
          height:0;
      }
 }
-    @media screen and (min-width:651px){
+@media screen and (max-width:768px){
+.main{
+width:0;
+height0;}
+}
+    @media screen and (min-width:770px){
     .column {
   float: left;
   width:20%; 
@@ -85,10 +91,10 @@
   width:20.3%; 
   margin-left: 4%;    
 }
-        #main{
-            width:0%;
-            height:0%;
-        }
+           .main{
+        width:100%;
+        height:100%;
+    }
         
 .column1{
   width: auto;   
@@ -162,17 +168,15 @@
        
        
     }
-    #main{
-        width:100%;
-        height:100%;
-    }
+    
+
 </style>
 </head>
 <body>
     	<div id="cd-nav">
 		<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
- <ul style="position: absolute; left:0%;top:0%;"><img src="images/aagama.png"  style="widht:70px;height:70px;"></ul>
-	<div id="main" style=" background-color: black;font-family: arial;"><br><br><br><br><br></div>	<nav id="cd-main-nav">
+ <ul style="position: absolute; left:0%;top:0%;"><img src="images/aagama.png" style="widht:70px;height:70px;"></ul>
+	<div class="main" style=" background-color: black;font-family: arial;"><br><br><br><br><br></div>	<nav id="cd-main-nav">
            
 			<ul>
 
@@ -193,16 +197,7 @@
 <br/>
     
 <div class="row3">
-  <div class="column " >
-    <div class="card col-ms-2 col-sm-2" >
-      <img src="images/Dr.T.Anil%20Kumar.jpg" alt="Convener" >
-        <h3>Dr.T.Anil kumar</h3>
-        <p class="title">Convener</p>
-        <p>M.Tech.,Ph.D</p>
-        
-    </div>
-  </div>
-     <div class="column " >
+    <div class="column " >
     <div class="card  col-ms-2 col-sm-2" >
       <img src="images/mechhod.jpg" alt="Convener" >
         <h3>Dr.R.Venkat Reddy</h3>
@@ -211,6 +206,15 @@
         
     </div>
   </div>
+    <div class="column " >
+    <div class="card col-ms-2 col-sm-2" >
+      <img src="images/Dr.T.Anil%20Kumar.jpg" alt="Convener" >
+        <h3>Dr.T.Anil kumar</h3>
+        <p class="title">Convener</p>
+        <p>M.Tech.,Ph.D</p>
+        
+    </div>
+    </div>
 </div>
 <br/><br/>
 
@@ -259,7 +263,7 @@
   </div>
 <div class="column2 " >
     <div class="card  col-ms-4 col-sm-2" >
-      <img src="images/Harish.jpg" alt="Web Designer" >
+      <img src="images/Harish.jpeg" alt="Web Designer" >
         <h3>I. Harish kumar</h3>
         <p class="title">Web Designer</p>
         <p><a href="https://www.facebook.com/harishkumar.injamuri" style="color:blue;"><span class="fa fa-facebook-f" style="font-size:24px"></span></a></p>
