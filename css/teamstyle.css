@@ -311,7 +311,7 @@ header h1 {
   transition: transform 0.3s, background 0s;
 }
 .cd-nav-trigger span::before {
-  top: -6px;
+  top: -2px;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
   -ms-transform: rotate(0);
