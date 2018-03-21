@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -47,8 +46,8 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days +" d " + hours + "h "
-    + minutes + "m " + seconds + "s " +  "to go";
+    document.getElementById("demo").innerHTML = hours + "h "
+    + minutes + "m " /* + seconds + "s " */+  "to go";
     
     // If the count down is over, write some text 
     if (distance < 0) {
@@ -73,6 +72,10 @@ var x = setInterval(function() {
 	}
   }
   
+ .count{
+    display:none;
+  }
+
   @media screen 
   and (min-device-width: 440px) 
  { 	
@@ -213,7 +216,9 @@ var x = setInterval(function() {
 
  
      <a href="https://play.google.com/store/apps/details?id=com.anurag.aagama.aagamaapp" target="_blank" ><p>~>Android app..</p></a>
-     <p>~> Workshop on Soft Skills..</p>
+     <p>~> <a href="http://aagama2k18.in/eventpages/softskills.html"> Workshop on Soft Skills..</a></p>
+     <p>~> Last date of registration for paper and poster presentation events<br> 12-03-18.</p>
+ <p>~> Spot registrations are also available.</p>
  </marquee>
  </div>
 
@@ -241,7 +246,7 @@ var x = setInterval(function() {
 
 <!---footer--->
 <blink><span class="years" id="demo" style="text-align: center;
-  font-size: 30px;
+  font-size: 28px;
     font-family: Comic Sans MS; 
   margin-top:0px;
   color:red;
@@ -251,6 +256,7 @@ var x = setInterval(function() {
   position: absolute;
   left:2%;
   bottom:10%;">
+
     <!--<p id="demo"></p>--></span></blink>
    <div style="position: absolute;
                top:82%;
@@ -288,7 +294,8 @@ var x = setInterval(function() {
  </div> 
 
 <div class="count" style="position: absolute; left:5%; top: 77%; width:auto; height:auto;">
-	<img src="http://www.reliablecounter.com/count.php?page=aagama2k18.in&digit=style/plain/6/&reloads=0" alt="www.reliablecounter.com" title="www.reliablecounter.com" border="0">Views<br />
+	<img src="http://www.reliablecounter.com/count.php?page=aagama2k18.in&digit=style/plain/6/&reloads=0" alt="" title="" border="0"> 
+ Views<br />
 	</div>
 
 
